@@ -26,7 +26,7 @@ const ScrollManager = () => {
 
 const ResumeRedirect = () => {
     useLayoutEffect(() => {
-        window.location.replace("https://drive.google.com/file/d/1bh0ua0dD4cwWCKQMByde2S3jvlPpt36m/view?usp=sharing");
+        window.location.replace("https://drive.google.com/file/d/1FTygIVU-zewT3HLeOngmyY-skqOuVnHs/view?usp=sharing");
     }, []);
     return null;
 };

@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react';
 import { NodeGlobalsPolyfillPlugin } from '@esbuild-plugins/node-globals-polyfill';
 import path from 'path';
 
-const RESUME_URL = 'https://drive.google.com/file/d/1dqqjtfrtSprcXXE83AtuHFGUYZwf4IH5/view?usp=sharing';
+const RESUME_URL = 'https://drive.google.com/file/d/1FTygIVU-zewT3HLeOngmyY-skqOuVnHs/view?usp=sharing';
 
 const resumeRedirectPlugin = () => ({
   name: 'resume-redirect',
