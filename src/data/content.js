@@ -29,6 +29,7 @@ export const sectionTitles = {
 
 // Projects
 export const projects = [
+    // CVE-2024-42009 project
     {
         name: "CVE-2024-42009",
         tagline: "Roundcube Webmail XSS detection & research lab",
@@ -84,7 +85,7 @@ export const projects = [
             "VirtualBox"
         ],
         ownership: "Designed, built, and maintained the home lab for continuous Active Directory administration and security practice.",
-        github: "https://github.com/Shubhankargupta691",
+        github: "https://github.com/Shubhankargupta691/Active-Directory",
     },
 
     // Linux Home Lab
@@ -112,7 +113,7 @@ export const projects = [
             "MITRE ATT&CK"
         ],
         ownership: "Built and documented the lab while performing the complete attack lifecycle in an isolated environment.",
-        github: "https://github.com/Shubhankargupta691",
+        github: "https://shubhankar-gupta.vercel.app/writing/exploiting-linux-server",
     },
 
     // Snort with Docker project
