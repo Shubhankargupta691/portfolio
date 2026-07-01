@@ -1,6 +1,6 @@
 ---
 title: "SMB Relay Attack"
-date: "2025-09-07"
+date: "2026-07-01"
 summary: "Demonstrating an SMB relay attack in an Active Directory lab by relaying intercepted NTLM authentication to a target system and discussing mitigation techniques."
 tags:
   - active-directory

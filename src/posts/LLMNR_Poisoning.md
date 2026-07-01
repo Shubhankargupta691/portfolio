@@ -1,6 +1,6 @@
 ---
 title: "LLMNR Poisoning"
-date: "2025-09-07"
+date: "2026-07-01"
 summary: "Demonstrating Link-Local Multicast Name Resolution (LLMNR) poisoning to intercept NTLM authentication attempts using Responder, analyze the authentication flow, and discuss detection and mitigation in an Active Directory environment."
 tags:
   - active-directory
