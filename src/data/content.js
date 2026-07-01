@@ -177,7 +177,7 @@ export const projects = [
             "Generates reports with scan results and security recommendations",
         ],
         metrics: {
-            value: "Files, IPs",
+            value: "Files, IP's",
             label: "supported scans",
         },
         stack: ["Python", "VirusTotal API", "MD5", "SHA256"],
