@@ -1,4 +1,9 @@
-# Attacking LSASS 
+---
+title: "Attacking LSASS"
+date: "2026-06-09"
+summary: "I will be covering the process of how attackers target the Local Security Authority Subsystem Service (LSASS) to harvest credentials"
+tags: ["LSASS", "Credential Dump","Sam dump", "Active Directory", "Windows"]
+---
 
 ### What is LSASS ?
 
