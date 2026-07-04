@@ -60,13 +60,3 @@ Preview the production build:
 ```
 npm run preview
 ```
-
-## **Deploying to Vercel**
-
-* Push the repository to GitHub
-* Import the project into Vercel
-* Select the Vite framework preset
-* Build command: `npm run build`
-* Output directory: `dist`
-
-Vercel handles the rest.
