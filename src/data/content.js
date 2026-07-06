@@ -314,9 +314,9 @@ export const eras = [
         title: "Credential Disclosure",
         company: "Independent",
         period: "Oct 2023",
-        narrative: "Identified plaintext database admin credentials exposed on a production website. Reported the vulnerability to mitigate the risk of a full database compromise and unauthorized data exfiltration.",
+        narrative: "Exploited an insecure admin.php endpoint using PHP wrappers to discover plaintext MySQL database administrative credentials on a production website. Responsibly reported the vulnerability to mitigate the risk of a full database compromise and unauthorized data exfiltration.",
         highlights: [
-            "Identified plaintext database admin credentials exposed on a production website.",
+            "Extracted plaintext database admin credentials via PHP wrappers on a production website.",
             "Reported the vulnerability to mitigate the risk of a full database compromise.",
             "Highlighted that an unmitigated threat would allow malicious actors to completely exfiltrate sensitive backend data."
         ],
@@ -370,7 +370,7 @@ export const proof = {
         title: "Credential Disclosure: Hardcoded Credential Leak via Raw PHP Exposure",
         date: "Oct 2023",
         status: "Reported",
-        data: "Identified plaintext database admin credentials exposed on a production website. Reported the vulnerability to mitigate the risk of a full database compromise and unauthorized data exfiltration."
+        data: "Extracted plaintext database admin credentials via PHP wrappers on a production website. Reported the vulnerability to mitigate the risk of a full database compromise and unauthorized data exfiltration."
     },
 
 
