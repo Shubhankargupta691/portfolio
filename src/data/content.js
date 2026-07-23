@@ -285,6 +285,18 @@ export const eras = [
     },
     {
         name: "Application Security",
+        title: "SQL Injection",
+        company: "Independent",
+        period: "23 Jul 2026",
+        narrative: "Discovered a critical SQL Injection vulnerability in a web application's login page during an authorized security assessment. The vulnerability could allow authentication bypass, administrative access, and unauthorized access to sensitive user data if exploited.",
+        highlights: [
+            "Identified a SQL Injection vulnerability in the application's authentication mechanism.",
+            "Demonstrated the potential exposure of Personally Identifiable Information (PII)",
+            "Attacker can perform privileged database operations, including the ability to create, modify, or delete records, demonstrating the severity of the vulnerability.",
+        ],
+    },
+    {
+        name: "null",
         title: "Sensitive Data Exposure",
         company: "Independent",
         period: "Oct 2024",
@@ -300,7 +312,7 @@ export const eras = [
         title: "Infrastructure Misconfiguration",
         company: "Independent",
         period: "May 2024",
-        narrative: "Discovered an outdated web stack running Microsoft-IIS/8.5 and ASP.NET 4.0.30319 that exposed a directory listing vulnerability. Further analysis revealed severe unpatched vulnerabilities susceptible to authentication bypass and remote code execution (RCE), compounded by the recovery of three valid enterprise credentials.",
+        narrative: "Discovered an outdated web stack running Microsoft-IIS/8.5 and ASP.NET 4.0.30319 that exposed a directory listing vulnerability. Further analysis revealed severe unpatched vulnerabilities susceptible to authentication bypass, compounded by the recovery of three valid enterprise credentials.",
         highlights: [
             "Identified an information disclosure flaw via web directory listing on an outdated web server stack.",
             "Exposed structural paths for CVE-2011-3416 (Forms Auth Bypass) and CVE-2014-4078 (IP Restriction Bypass).",
@@ -363,7 +375,7 @@ export const proof = {
         title: "Infrastructure Misconfiguration",
         date: "Dec 2023",
         status: "Reported",
-        data: "Discovered an outdated web stack running Microsoft-IIS/8.5 and ASP.NET 4.0.30319 that exposed a directory listing vulnerability. Further analysis revealed severe unpatched vulnerabilities susceptible to authentication bypass and remote code execution (RCE), compounded by the recovery of three valid enterprise credentials.",
+        data: "Discovered an outdated web stack running Microsoft-IIS/8.5 and ASP.NET 4.0.30319 that exposed a directory listing vulnerability. Further analysis revealed severe unpatched vulnerabilities susceptible to authentication bypass, compounded by the recovery of three valid credentials from a text file.",
     },
 
         report3: {
