@@ -365,7 +365,7 @@ export const eras = [
 // Credentials
 export const proof = {
     report1: {
-        title: "Critical SQL Injection in Authentication Mechanism",
+        title: "Critical SQL Injection in Login Page",
         date: "Jul 23 2026",
         status: "Reported",
         data: "Identified a critical SQL Injection vulnerability in a web application's login page during an authorized security assessment. The issue could allow authentication bypass, administrative access, exposure of sensitive Personally Identifiable Information (PII), and privileged database operations."
