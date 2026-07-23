@@ -368,7 +368,7 @@ export const proof = {
         title: "Critical SQL Injection in Authentication Mechanism",
         date: "Jul 23 2026",
         status: "Reported",
-        data: "Identified a critical SQL Injection vulnerability in a web application's login page during an authorized security assessment. The issue could allow authentication bypass, administrative access, exposure of sensitive Personally Identifiable Information (PII), and privileged database operations. The vulnerability was responsibly disclosed with detailed remediation recommendations."
+        data: "Identified a critical SQL Injection vulnerability in a web application's login page during an authorized security assessment. The issue could allow authentication bypass, administrative access, exposure of sensitive Personally Identifiable Information (PII), and privileged database operations."
     },
     report2: {
         title: "Sensitive Data Exposure: 302 Redirect to Unsecured Google Drive",
