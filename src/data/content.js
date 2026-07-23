@@ -365,20 +365,26 @@ export const eras = [
 // Credentials
 export const proof = {
     report1: {
+        title: "Critical SQL Injection in Authentication Mechanism",
+        date: "Jul 23 2026",
+        status: "Reported",
+        data: "Identified a critical SQL Injection vulnerability in a web application's login page during an authorized security assessment. The issue could allow authentication bypass, administrative access, exposure of sensitive Personally Identifiable Information (PII), and privileged database operations. The vulnerability was responsibly disclosed with detailed remediation recommendations."
+    },
+    report2: {
         title: "Sensitive Data Exposure: 302 Redirect to Unsecured Google Drive",
         date: "Apr 27 2024",
         // status: "Reported",
         data: "Discovered a 302 Redirect on a legacy subdomain that led to an unsecured Google Drive instance belonging to a major Indian e-commerce platform containing customer call recordings and PII, mitigating a significant data privacy risk."
     },
     
-    report2: {
+    report3: {
         title: "Infrastructure Misconfiguration",
         date: "Dec 2023",
         status: "Reported",
         data: "Discovered an outdated web stack running Microsoft-IIS/8.5 and ASP.NET 4.0.30319 that exposed a directory listing vulnerability. Further analysis revealed severe unpatched vulnerabilities susceptible to authentication bypass, compounded by the recovery of three valid credentials from a text file.",
     },
 
-        report3: {
+        report4: {
         title: "Credential Disclosure: Hardcoded Credential Leak via Raw PHP Exposure",
         date: "Oct 2023",
         status: "Reported",
